@@ -32,12 +32,6 @@
         <br>GitHub
       </a>
     </td>
-    <td align="center">
-      <a href="https://pi-ml-ops-mod-recomendacion.onrender.com" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
-        <img src="src/reporte.png" alt="Render" width="75" height="75">
-        <br>Mi Dashboard
-      </a>
-    </td>
   </tr>
 </table>
 <hr>
@@ -105,14 +99,7 @@ El enfoque central se orienta a identificar áreas críticas, tendencias y patro
 
 </p>
 
-### <span style="color: #ff5733;">5. Disponibilización es **Power BI Service**</span>
-
-<p style="text-align: justify;">
-El tablero desarrollado se encuentra disponible en Power BI Service, permitiendo un acceso conveniente y remoto a través de esta plataforma en línea. Esta implementación en el servicio de Power BI no solo garantiza una accesibilidad mejorada, sino que también facilita la colaboración y el intercambio de información entre los usuarios. 
-</p>
-
-
-### <span style="color: #ff5733;">6. KPIs</span>
+### <span style="color: #ff5733;">5. KPIs</span>
 
 <p style="text-align: justify;">
 Se tenia como consigna la elaboración de 2 KPIs obligatorios a los cuales he sumado otros dos para hacer un tablero mas completo y robusto para la toma de decisiones por parte de los usuarios del sector/stakeholders.
@@ -127,6 +114,24 @@ Se tenia como consigna la elaboración de 2 KPIs obligatorios a los cuales he su
 
 - `cantidad de accidentes mortales en Avenidas en el último año`: El objetivo es medir la cantidad anual de accidentes mortales en Avenidas, comparando el año a analizar con el anterior y evaluar si se ha reducido o no en un 7%. 
 </p>
+
+### <span style="color: #ff5733;">6. Conclusiones </span>
+
+<p style="text-align: justify;">
+Se ha elaborado un documento que encapsula las conclusiones extraídas en cada fase previamente mencionada, centrando especialmente la atención en la utilización y análisis de los indicadores presentes en el Dashboard interactivo. Con el propósito de no exceder las dimensiones previstas para este readme, todas las conclusiones y aproximaciones se encuentran detalladas de manera exhaustiva en dicho documento.
+</p>
+
+<table align="center" border="0" style="border-collapse: collapse;">
+  <tr>
+    <td align="center">
+      <a href="https://pi-ml-ops-mod-recomendacion.onrender.com" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
+        <img src="src/reporte.png" alt="Render" width="75" height="75">
+        <br>Conclusiones
+      </a>
+    </td>
+  </tr>
+</table>
+
 <br></br>
 
 
@@ -138,7 +143,11 @@ Se tenia como consigna la elaboración de 2 KPIs obligatorios a los cuales he su
 
 - **Pandas/Numpy**:  Se utilizó esta librería de Python para el volcado y manipulación de los archivos.
 
+- **Geopandas**:  Se utilizó esta librería para graficar la distribución de los siniestros en las comunas de CABA utilizando el archivo .shp correspondiente (disponible en la carpeta Datos/Shape-Comunas).
+
 - **matplotlib/Seaborn**: Utilizadas para graficar en mi análisis exploratorio (EDA).
+
+- **openpyxl**: Para la lectura y manipulacion de archivos xlsx.
 
 </p>
 
@@ -156,6 +165,7 @@ Se tenia como consigna la elaboración de 2 KPIs obligatorios a los cuales he su
 
 - **EDA.ipynb**: Análisis exploratorio, transformación de datos, imputaciones y generación de archivos a utilizar como origen de datos en POWER BI.
 
+- **Conclusiones.pdf**: Archivo que detalla las conclusiones y aproximaciones derivadas de cada etapa, destacando el análisis de indicadores en el Dashboard interactivo.
   
 </p>
 
@@ -179,12 +189,6 @@ Se tenia como consigna la elaboración de 2 KPIs obligatorios a los cuales he su
       <a href="https://github.com/fercof87/PI_DATA_ANALYTICS" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
         <img src="src/github.png" alt="GitHub" width="75" height="75">
         <br>GitHub
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://pi-ml-ops-mod-recomendacion.onrender.com" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
-        <img src="src/reporte.png" alt="Render" width="75" height="75">
-        <br>Mi Dashboard
       </a>
     </td>
   </tr>
